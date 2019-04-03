@@ -42,7 +42,7 @@ class Canvas extends JComponent{
   }	
 }
 //	//	//	//	//
-public class showFigures {
+public class showFigures_Timer {
 	/**
 	 * @param args
 	 */
