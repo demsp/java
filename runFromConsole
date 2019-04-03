@@ -1,0 +1,8 @@
+Создаём helloworld.java
+Переходим в каталог, где лежит данный файл, и выполняем команды.
+
+javac HelloWorld.java
+
+В данной папке появится файл HelloWorld.class. Значит программа скомпилирована. Чтобы запустить
+
+java -classpath . HelloWorld
