@@ -1,0 +1,32 @@
+// https://habr.com/ru/post/208268/
+
+import java.util.Date;
+import java.lang.Math;
+import java.util.Random;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+     // Foo foo1 = new Foo();	
+	  //  Foo foo2 = new Foo(11);
+	  
+        Date now = new Date();
+        System.out.println("Hello World!");
+        System.out.println("now: " + now);
+    }
+  
+  private byte counter = 0;  
+}  ///
+
+// private byte counter = 0;
+
+    public void increase(){
+        Random rand = new Random();
+        int randNumber = rand.nextInt(getElementSequence(counter + 1) - getElementSequence(counter));
+        if(randNumber == 0)             counter++;
+    }
+    
+  private int getElementSequence(int number){
+      System.out.println("Hello World!");
+   //     return (int) Math.pow(number, 2);
+    }
+
